@@ -1,12 +1,21 @@
-var pingPong = function(userInput){
-  if(userInput % 3 === 0 && !(userInput % 5 === 0)){
+
+var countUp = function(userInput) {
+  var countValues = [];
+  for(var i = 1; i <= userInput; i++){
+      countValues.push(i);
+  }
+
+  return countValues;
+}
+var pingPong = function(countValue){
+  if(countValue % 3 === 0 && !(countValue % 5 === 0)){
     return "Ping";
-  } else if(userInput % 5 === 0 && !(userInput % 3 === 0)){
+  } else if(countValue % 5 === 0 && !(countValue % 3 === 0)){
     return "Pong";
-  } else if (userInput % 15 === 0){
+  } else if (countValue % 15 === 0){
     return "Ping Pong";
   } else{
-    return userInput;
+    return countValue;
   }
 }
 $(document).ready(function() {
