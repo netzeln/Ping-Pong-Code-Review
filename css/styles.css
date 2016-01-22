@@ -1,3 +1,27 @@
 .resultsList {
   display: none;
 }
+.topbar {
+  width: 100%;
+  background-color: #FFEBCD;
+  text-align: center;
+}
+body {
+  background-color: #DCDCDC;
+}
+.mainForm{
+  padding: 15px;
+  float: right;
+}
+.sidebar {
+  float:left;
+  background-color: #8fbc8f;
+  padding: 15px;
+}
+.sidebar h3{
+  color: #FFEBCD;
+}
+
+.sidebar h4{
+  color: #FFFFFF;
+}
