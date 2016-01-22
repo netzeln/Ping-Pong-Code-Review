@@ -5,6 +5,8 @@ var pingPong = function(userInput){
     return "Pong";
   } else if (userInput % 15 === 0){
     return "Ping Pong";
+  } else{
+    return userInput;
   }
 }
 $(document).ready(function() {

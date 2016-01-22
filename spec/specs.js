@@ -10,4 +10,8 @@ describe("pingPong", function(){
   it("returns 'Ping Pong' if a number is divisible by both 5 and 3", function(){
     expect(pingPong(15)).to.equal("Ping Pong");
   });
+
+  it("returns a number if the number is not divisible by 3 and-or 5", function(){
+    expect(pingPong(4)).to.equal(4);
+  });
 });
