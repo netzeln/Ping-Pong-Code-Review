@@ -1,5 +1,5 @@
-describe("countUp", function(){
-  it("puts the numbers from 1 to user input into an array", function(){
-    expect(countUp([1,3,5,15)).to.eql([1,"Ping","Pong", "Ping Pong"]);
-  });
-});
+// describe("countUp", function(){
+//   it("does what the assigment says it should do on the page", function(){
+//     expect(4)to.print on the screen( a list that <li>1 <li>2 <li>ping);
+//   });
+// });

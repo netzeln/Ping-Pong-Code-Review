@@ -6,7 +6,7 @@ describe("countUp", function(){
 
 describe ("numberReplace", function(){
   it("checks the numbers in an array and replaces them with words if they are divisible by 3, 5, 15", function(){
-    expect(numberReplace([1,3,5,15])).to.eql([1,"Ping","Pong", "Ping Pong"])
+    expect(numberReplace([1,3,5,15])).to.eql([1,"Ping","Pong","Ping Pong"])
   });
 });
 

@@ -16,8 +16,8 @@ $("form#getNumber").submit(function(event){
     } else{
         $("ul#results").append("<li>" + i + "</li>");
     }
-    }
-    $(".resultslist").show();
+  }
+  $(".resultslist").show();
 
     event.preventDefault();
   });
