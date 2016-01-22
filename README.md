@@ -11,8 +11,7 @@ _This page will print a list of numbers up to a user-submitted number, replacing
 ## Setup/Installation Requirements
 
 * _This is a great place_
-* This is just a website
-
+* This is just a website (http://netzeln.github.io/Ping-Pong-Code-Review/)
 
 
 ## Known Bugs
