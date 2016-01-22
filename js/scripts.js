@@ -28,20 +28,21 @@ var numberReplace = function(countValues){
   }
 
 
-//
-// // var pingPong = function(countValue){
-// //   if(countValue % 3 === 0 && !(countValue % 5 === 0)){
-// //     return "Ping";
-// //   } else if(countValue % 5 === 0 && !(countValue % 3 === 0)){
-// //     return "Pong";
-// //   } else if (countValue % 15 === 0){
-// //     return "Ping Pong";
-// //   } else{
-// //     return countValue;
-// //   }
-// // }
-// $(document).ready(function() {
-//
-//
-//
-// });
+
+$(document).ready(function() {
+  $("form#getNumber").submit(function(event){
+    $("ul#results").empty();
+    var userInput = Math.abs(parseInt($("input#countUp").val()))
+    var countValues = countUp(userInput);
+    var listPrint = numberReplace(countValues);
+
+    listPrint.forEach(function(listItem){
+        $("ul#results").append("<li>" + listItem + "</li>");
+      })
+    $(".resultslist").show();
+
+      event.preventDefault();
+    });
+
+
+});
