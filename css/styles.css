@@ -6,6 +6,8 @@
   background-color: #FFEBCD;
   text-align: center;
 }
+
+
 body {
   background-color: #DCDCDC;
 }
@@ -23,5 +25,22 @@ body {
 }
 
 .sidebar h4{
+  color: #FFFFFF;
+}
+
+/* stuff for bootsrapped version */
+.jumbotron {
+  background-color: #FFEBCD;
+  text-align: center;
+}
+.side{
+  background-color: #8fbc8f;
+  padding: 15px;
+}
+.side h3{
+  color: #FFEBCD;
+}
+
+.side h4{
   color: #FFFFFF;
 }
