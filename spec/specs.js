@@ -1,8 +1,3 @@
-describe("countUp",function(){
-  it("puts the numbers from 1 to user input into an array", function(){
-    expect(countUp(3)).to.eql([1,2,3]);
-  });
-});
 
 describe("pingPong", function(){
   it("returns 'Ping' if a number is divisible by 3 but not 5",function(){
